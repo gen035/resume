@@ -1,0 +1,108 @@
+$white: #ffffff
+$black: #000000
+$darkgrey: #343434
+$lightgrey: #eeeeee
+$teal: #d1e5e3
+
+@font-face
+  font-family: 'Loves'
+  src: url('../fonts/loves.eot')
+  src: url('loves.eot?#iefix') format("embedded-opentype"), url('loves.woff') format("woff"), url('loves.ttf') format("truetype")
+
+body
+  width: 8.5in
+  height: 11in
+  margin: 0 auto
+
+header
+  height: 3in
+  width: 100%
+  background-color: $teal
+  color: $darkgrey
+  text-align: center
+  display: flex
+  align-items: center
+  position: relative
+  font-family: 'Loves'
+
+h2
+  margin-bottom: 5px
+
+header div
+  width: 100%
+
+header h1
+  font-size: 44px
+
+header p
+  font-size: 18px
+  margin-top: 10px
+
+.content
+  background-color: $lightgrey
+  min-height: 8in
+  padding: 0 0.5in
+  font-family: 'Assistant', sans-serif
+
+.intro
+  padding: 48px 18px
+
+.header-info
+  position: absolute
+  bottom: 0
+  padding: 24px 0
+
+.header-info-box
+  float: left
+  width: 33.3333%
+  box-sizing: border-box
+
+.header-info-box:nth-child(2)
+  border-left: 1px solid $darkgrey
+  border-right: 1px solid $darkgrey
+
+.section-header
+  text-transform: uppercase
+  border-top: 3px solid $darkgrey
+  padding: 5px 15px
+
+.section-content
+  border-top: 1px solid $darkgrey
+  padding: 24px 15px
+
+.section-list-container
+  float: left
+  width: 33.33%
+  
+.section-list span
+  font-size: 12px
+  
+.career-a
+  float: left
+  width: 25%
+
+.career-b
+  float: left
+  width: 75%
+
+.career-list li
+  list-style-type: disc
+
+.job-title
+  font-size: 12px
+  margin: 0
+
+.interests-hobbies
+  float: left
+  width: 33.33%
+
+.small-text
+  font-size: 12px
+
+.bold-text
+  font-weight: bold
+
+.row::after
+  content: ""
+  clear: both
+  display: table
